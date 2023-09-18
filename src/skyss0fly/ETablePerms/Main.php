@@ -4,12 +4,11 @@ namespace skyss0fly\ETablePerms;
 
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\block\EnchantingTable;
-use pocketmine\plugin\PluginBAW;
+use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
 
-public EnchantingTable $table; 
     
-public function oninterract(PlayerInteractEvent $event) {
+public function oninterract(PlayerInteractEvent $event, EnchantingTable $table) {
 $block = $event->getBlock();
   if ($block === $table) {
 $player = $event->getPlayer();
