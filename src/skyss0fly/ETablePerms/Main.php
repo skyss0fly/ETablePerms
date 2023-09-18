@@ -6,7 +6,7 @@ use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\block\EnchantingTable;
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
-    /*
+    /**
 * @param PlayerInteractEvent $event
 * @priority HIGHEST
 * @ignoreCancelled true
