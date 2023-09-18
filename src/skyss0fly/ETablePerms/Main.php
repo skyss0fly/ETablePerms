@@ -21,7 +21,7 @@ $player = $event->getPlayer();
 $event->cancel();
       $player->sendMessage("Error: you lack permission to use this!");
       }
-
+  }
     else {
 
     #null
