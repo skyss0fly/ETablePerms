@@ -7,9 +7,10 @@ use pocketmine\block\EnchantingTable;
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
     /*
-@param PlayerInteractEvent $event
-@priority HIGHEST
-@ignoreCancelled true*/
+* @param PlayerInteractEvent $event
+* @priority HIGHEST
+* @ignoreCancelled true
+*/
     
 public function onInterract(PlayerInteractEvent $event) {
 $block = $event->getBlock();
