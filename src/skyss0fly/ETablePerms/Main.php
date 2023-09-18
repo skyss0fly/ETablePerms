@@ -7,7 +7,7 @@ use pocketmine\block\EnchantingTable;
 use pocketmine\plugin\PluginBAW;
 class Main extends PluginBase {
 
-public EnchantingTable = $table 
+public EnchantingTable $table; 
     
 public function oninterract(PlayerInteractEvent $event) {
 $block = $evnet->getBlock();
