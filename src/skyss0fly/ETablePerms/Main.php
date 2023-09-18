@@ -15,7 +15,7 @@ public function onInterract(PlayerInteractEvent $event) {
 $block = $event->getBlock();
   if ($block instanceof Enchantingtable) {
 $player = $event->getPlayer();
-      $this->ignoreCancelled
+
     if ($player->hasPermission("ETablePerms.Use")){
 
 # null
