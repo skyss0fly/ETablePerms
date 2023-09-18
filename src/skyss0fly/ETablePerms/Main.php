@@ -14,7 +14,7 @@ class Main extends PluginBase {
     
 public function onInterract(PlayerInteractEvent $event) {
 $block = $event->getBlock();
-  if ($block instanceof Enchantingtable) {
+  if ($block instanceof EnchantingTable) {
 $player = $event->getPlayer();
 
     if ($player->hasPermission("ETablePerms.Use")){
