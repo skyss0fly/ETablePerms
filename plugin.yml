@@ -3,6 +3,7 @@
   api: 5.0.0
   version: 1.0
   description: "simple enchanting table permissions plugin"
+  main: skyss0fly\ETablePerms\Main
   permissions:
    EtablePerms.Use:
    default: false
